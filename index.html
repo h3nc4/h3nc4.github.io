@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Henrique Almeida</title>
+	<style>
+		:root {
+			--LightGreenBG: #515f48;
+			--GreenBG: #444f3d;
+			--DarkGreenBG: #383f32;
+			--BorderBright: #737373;
+			--BorderDark: #24291f;
+			--OffWhite: #d8ded3;
+			--Maize: #c4b550;
+			--FullGreen: #719544;
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			background-color: var(--DarkGreenBG);
+			color: var(--OffWhite);
+			font-family: "Courier New", Courier, monospace;
+			line-height: 1.6;
+		}
+
+		header,
+		footer {
+			background-color: var(--GreenBG);
+			text-align: center;
+		}
+
+		header {
+			padding: 20px;
+			border-bottom: 2px solid var(--BorderBright);
+		}
+
+		header h1 {
+			font-size: 2.5em;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+
+		footer {
+			padding: 10px;
+			border-top: 2px solid var(--BorderBright);
+			margin-top: 20px;
+		}
+
+		a {
+			color: var(--Maize);
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: var(--FullGreen);
+		}
+
+		nav a {
+			margin: 0 15px;
+			font-size: 1.2em;
+		}
+
+		nav a:hover {
+			text-decoration: underline;
+		}
+
+		section {
+			background-color: var(--LightGreenBG);
+			padding: 20px;
+			margin: 20px auto;
+			max-width: 800px;
+			border: 1px solid var(--BorderBright);
+			box-shadow: 0 0 10px var(--BorderDark);
+		}
+
+		section h2 {
+			border-bottom: 1px solid var(--BorderBright);
+			padding-bottom: 5px;
+			margin-bottom: 15px;
+		}
+
+		ul {
+			list-style-type: disc;
+			margin-left: 20px;
+		}
+
+		li {
+			margin-top: 15px;
+			color: var(--OffWhite);
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Henrique Almeida</h1>
+		<nav>
+			<a href="#experience">Experience</a>
+			<a href="#education">Education</a>
+			<a href="#projects">Projects</a>
+			<a href="#courses">Courses</a>
+		</nav>
+	</header>
+	<section id="about">
+		<h2>About Me</h2>
+		<p>
+			I am a student dedicated to the principles of free software.
+		</p>
+		<br>
+		<p>
+			My technical journey is deeply rooted in the GNU/Linux ecosystem, where I embrace a minimalist approach to
+			both design and functionality.
+		</p>
+		<br>
+		<p>
+			I believe that simplicity isn't just an aesthetic—it's a philosophy that leads to more efficient and
+			maintainable solutions.
+		</p>
+	</section>
+	<section id="experience">
+		<h2>Experience</h2>
+		<ul>
+			<li>
+				<strong>Intern</strong> at Hexagon Mining (July 2023 - Present)
+				<p>
+					Lots of Shell Script, Docker and AWS.
+				</p>
+			</li>
+		</ul>
+	</section>
+	<section id="education">
+		<h2>Education</h2>
+		<ul>
+			<li>
+				<strong>B.Sc. in Software Engineering</strong> - PUC Minas (2022 - 2025)
+			</li>
+		</ul>
+	</section>
+	<section id="projects">
+		<h2>Projects</h2>
+		<p>
+			Check out some of my personal projects on GitHub:
+		</p>
+		<ul>
+			<li>
+				<a href="https://github.com/h3nc4/Dreamweaver" target="_blank">A Debian GNU/Linux based distribution with focus on minimalism</a>
+			</li>
+			<li>
+				<a href="https://github.com/h3nc4/LUKS_NUKER" target="_blank">A simple distro to wipe all LUKS keys on
+					hardware</a>
+			</li>
+			<li>
+				<a href="https://github.com/h3nc4/Life" target="_blank">Conway's Game of Life for X</a>
+			</li>
+			<li>
+				<a href="https://github.com/h3nc4/sxac" target="_blank">Simple X Auto Clicker</a>
+			</li>
+		</ul>
+	</section>
+	<section id="courses">
+		<h2>Courses</h2>
+		<ul>
+			<li>
+				<a href="./certs/ibm_security_operations_center_in_practice.pdf" target="_blank">IBM Security Operations
+					Center</a>
+			</li>
+			<li>
+				<a href="./certs/ibm_enterprise_security_in_practice.pdf" target="_blank">IBM Enterprise Security</a>
+			</li>
+			<li>
+				<a href="./certs/RHSAI.pdf" target="_blank">Red Hat System Administrator I</a>
+			</li>
+			<li>
+				<a href="./certs/linux_debug.pdf" target="_blank">Linux debugging</a>
+			</li>
+		</ul>
+	</section>
+	<section id="bestwebsite">
+		<p>Feel free to cite this page as evidence that elegance doesn't require JS.</p>
+	</section>
+	<footer>
+		<a href="https://github.com/h3nc4/h3nc4.github.io" target="_blank">
+			<p>🄯 2025 Henrique Almeida.<br>Because knowledge should be free.</p>
+		</a>
+	</footer>
+</body>
+
+</html>
